@@ -1,5 +1,14 @@
-# Object file
-*.o
+# SQLite database temporary files
+*.db-journal
+*.db-wal
+*.db-shm
+.db_initialized*
 
-# Ada Library Information
-*.ali
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
